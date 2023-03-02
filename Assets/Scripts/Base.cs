@@ -10,7 +10,7 @@ using UnityEngine;
 public class Base : Building
 { 
     public static Base Instance { get; private set; }
-
+  
     private void Awake()
     {
         Instance = this;

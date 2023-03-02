@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-
 // Base class for all Unit. It will handle movement order given through the UserControl script.
 // It require a NavMeshAgent to navigate the scene.
 [RequireComponent(typeof(NavMeshAgent))]
